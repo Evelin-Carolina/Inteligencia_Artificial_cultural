@@ -6,41 +6,41 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você acredita que as orcas têm maiores qualidades de vida dentro ou fora do cativeiro?",
+        enunciado: "Qual a sua opinião sobre a subcultura conhecida como Mandrake?",
         alternativas: [
             {
-                texto: "Sim, com cuidados humanos elas têm maiores qualidades de vida.",
-                afirmacao: "As orcas criadas em cativeiro tem média de vida de 15 a 25 anos. "
+                texto: "Não, considero uma subcultura pois é utilizado comumente no mundo da criminalidade.",
+                afirmacao: "Não conhece a filosofia transmitida pela subcultura mandrake"
             },
             {
-                texto: "Não, na natureza elas possuem maior qualidade de vida.",
-                afirmacao: "Orcas que vivem na natureza tem estimativa de vida de 100 anos."
+                texto: "Acredito que seja uma forma de expressão distorcida pela sociedade atual.",
+                afirmacao: "Têm a ideia de que seja uma subcultura julgada e criminalizada."
             }
         ]
     },
     {
-        enunciado: "Você considera importante a vida social de uma orca?",
+        enunciado: "Você conhece o significado por traz da subcultura Mandrake?",
         alternativas: [
             {
-                texto: "Sim, as orcas necessitam conviver socialmente com outras orcas.",
-                afirmacao: "Orcas criadas em cativeiro encontram-se em situações estressantes pelo abandono familiar."
+                texto: "Sim, creio que seja somente para estilo",
+                afirmacao: "A subcultura mandrake tem como símbolo a resistência à violência policial e a segregação de moradores da periferia."
             },
             {
-                texto: "Não, elas necessitam viver sozinhas.",
-                afirmacao: "As orcas necessitam estar em grupos formados por suas gerações passadas, já que são considerados os animais mais sociáveis da Terra."
+                texto: "Não, não acho que tenha um símbolo.",
+                afirmacao: "A subcultura tem um objetivo muito simbólico, que trata da resistência à violência policial dentro das periferias e expressão da comunidade das favelas."
             }
         ]
     },
     {
-        enunciado: "Você considera as orcas como agressivas?",
+        enunciado: "Você conhece a origem da subcultura Mandrake?",
         alternativas: [
             {
-                texto: "Sim, pois são consideradas "baleias assassinas".",
-                afirmacao: "as orcas apesar do apelido, são seres inofensivos e só caçam para a alimentação ou quando se sentem ameaçadas"
+                texto: "Sim, creio que seja somente um estilo de roupas.",
+                afirmacao: "Mandrake não é só um estilo de roupas, mas sim uma manifestação sociocultural contra sistema capitalista."
             },
             {
-                texto: "Não, pois elas apenas se alimentam como outros animais.",
-                afirmacao: "O apelido de "baleia assassina" veio devido a sua agilidade na hora da caça e por se alimentar de animais de sangue quente, porém matam apenas para se alimentar e mentar a sua sobrevivência."
+                texto: "Não, mas creio que seja um símbolo criminoso.",
+                afirmacao: "O movimento mandrake surgiu por volta dos anos 70, dentro do contexto periférico. Os Mandrakes são pessoas vítimas do sistema capitalista e reféns da desigualdade social."
             }
         ]
     },
